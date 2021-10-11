@@ -53,7 +53,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border: 6px solid orangered;
+  // border: 6px solid orangered;
 }
 
 // --------------Header Top----------------------
@@ -61,7 +61,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 5px solid peru;
+  // border: 5px solid peru;
   padding: 0 30px;
   height: 116px;
   img {
@@ -81,17 +81,17 @@ header {
 
 // --------------Header Bottom----------------------
 #header-bottom {
-  border: 5px solid green;
+  // border: 5px solid green;
   height: calc(100% - 116px);
   .container {
-    border: 5px solid black;
+    // border: 5px solid black;
     width: 70%;
     margin: auto;
     height: 100%;
     display: flex;
     align-items: center;
     .header-info {
-      border: 5px solid yellow;
+      // border: 5px solid yellow;
       width: 50%;
       color: white;
       h1 {
