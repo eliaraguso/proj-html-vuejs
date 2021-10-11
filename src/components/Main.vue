@@ -1,12 +1,16 @@
 <template>
   <main>
-    <h1>Main</h1>
+    <Welcome />
   </main>
 </template>
 
 <script>
+import Welcome from './Welcome-section.vue'
 export default {
-    name: 'Main'
+    name: 'Main',
+    components : {
+      Welcome
+    }
 }
 </script>
 

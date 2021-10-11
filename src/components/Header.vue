@@ -53,6 +53,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   // border: 6px solid orangered;
 }
 
@@ -113,6 +114,7 @@ header {
         font-size: 18px;
         text-decoration: none;
         letter-spacing: 2px;
+        border-radius: 8px;
       }
     }
   }
