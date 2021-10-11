@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Header/>
+    <Header :headerMenu="headerMenu"/>
     <Main/>
     <Footer/>
   </div>
@@ -22,7 +22,28 @@ export default {
     Header,
     Main,
     Footer
-  }
+  },
+  data() {
+    return {
+      headerMenu: [
+        {
+          text: 'HOME'
+        },
+        {
+          text: 'ABOUT'
+        },
+        {
+          text: 'DEPARTMENTS'
+        },
+        {
+          text: 'ARTICLES'
+        },
+        {
+          text: 'MAKE APPOINTMENT'
+        }
+      ]
+    }
+  },
 }
 </script>
 
