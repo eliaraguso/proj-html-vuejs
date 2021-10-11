@@ -1,56 +1,62 @@
 <template>
   <div id="app">
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Header :headerMenu="headerMenu"/>
-    <Main/>
-    <Footer/>
+    <Header :headerMenu="headerMenu" />
+    <Main />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
-
-
-
-
+import Header from "./components/Header.vue";
+import Main from "./components/Main.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Main,
-    Footer
+    Footer,
   },
   data() {
     return {
       headerMenu: [
         {
-          text: 'HOME'
+          text: "HOME",
+          color: "home",
+          hover: " home",
         },
         {
-          text: 'ABOUT'
+          text: "ABOUT",
+          color: "white",
+          hover: " home",
+          active: "active",
         },
         {
-          text: 'DEPARTMENTS'
+          text: "DEPARTMENTS",
+          color: "white",
+          active: "active",
         },
         {
-          text: 'ARTICLES'
+          text: "ARTICLES",
+          color: "white",
+          active: "active",
         },
         {
-          text: 'MAKE APPOINTMENT'
-        }
-      ]
-    }
+          text: "MAKE APPOINTMENT",
+          color: "white",
+          background: "appointment",
+        },
+      ],
+    };
   },
-}
+};
 </script>
 
 <style lang="scss">
-@import './assets/style/common.scss';
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import "./assets/style/common.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 #app {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 </style>
