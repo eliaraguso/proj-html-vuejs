@@ -111,7 +111,7 @@ padding-bottom: 50px;
       margin: auto;
       .separator {
         border-bottom: 1px solid;
-        width: 45%;
+        width: 300px;
         margin: 50px auto;
         border-color: #d1d1d1;
       }
