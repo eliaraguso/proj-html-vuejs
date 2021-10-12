@@ -62,7 +62,6 @@ export default {
 // Welcome section
 #welcome-section {
 //   border: 5px solid black;
-  height: 679px;
   font-weight: 300;
 
   h2,
@@ -83,8 +82,8 @@ export default {
 
     // Welcome Top section
     #welcome-top {
-    //   border: 5px solid salmon;
-      width: 60%;
+      // border: 5px solid salmon;
+      width: 48%;
       margin: auto;
       color: rgb(51, 60, 78);
       h2 {
@@ -93,6 +92,7 @@ export default {
       h3 {
         font-size: 22px;
         line-height: 48px;
+        margin: 40px 0;
       }
     }
 
