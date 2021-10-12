@@ -92,7 +92,8 @@ export default {
 // Doctors section
 #doctors-section {
   background-color: #f7f7f7;
-  padding: 130px 0;
+  padding-top: 130px;
+  padding-bottom: 100px;
 }
 
 // Doctors top section
@@ -122,10 +123,13 @@ export default {
 // Doctors bottom section
 #doctors-bottom {
   width: 70%;
-  margin: auto;
+  margin: 80px auto;
   display: flex;
   justify-content: space-evenly;
   // border: 5px solid red;
+  .doctor-box:hover {
+    transform: scale(1.2);
+  }
   .doctor-box {
     // border: 5px solid green;
     width: 369px;
@@ -144,6 +148,7 @@ export default {
         width: 35px;
         margin-right: 15px;
       }
+     
     }
   }
 }
