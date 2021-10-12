@@ -92,11 +92,12 @@ export default {
 // Doctors section
 #doctors-section {
   background-color: #f7f7f7;
+  padding: 130px 0;
 }
 
 // Doctors top section
 #doctors-top {
-  border: 5px solid brown;
+  // border: 5px solid brown;
   width: 33%;
   margin: auto;
   text-align: center;
@@ -120,12 +121,13 @@ export default {
 
 // Doctors bottom section
 #doctors-bottom {
-  width: 53%;
+  width: 70%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  // border: 5px solid red;
   .doctor-box {
-    border: 5px solid green;
+    // border: 5px solid green;
     width: 369px;
     font-size: 18px;
     font-weight: 300;
