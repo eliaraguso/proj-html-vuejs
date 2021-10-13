@@ -6,6 +6,7 @@
     <Facilities />
     <Learn />
     <Appointment />
+    <Carousel />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import Services from './Services-section.vue';
 import Facilities from './Facilities-section.vue';
 import Learn from './LearnMore-section.vue';
 import Appointment from './Appointment-section.vue';
+import Carousel from './Carousel-section.vue';
 
 
 export default {
@@ -27,6 +29,7 @@ export default {
       Facilities,
       Learn,
       Appointment,
+      Carousel,
     }
 }
 </script>
