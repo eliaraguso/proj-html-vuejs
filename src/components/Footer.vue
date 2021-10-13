@@ -38,15 +38,14 @@
         <h3>MEDICAL DEPARTMENTS</h3>
         <div class="separator"></div>
         <ul>
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
-          <li>a</li>
+          <li><i class="fas fa-check"></i>Cardiology</li>
+          <li><i class="fas fa-check"></i>Cardiology</li>
+          <li><i class="fas fa-check"></i>Cardiology</li>
+          <li><i class="fas fa-check"></i>Cardiology</li>
+          <li><i class="fas fa-check"></i>Cardiology</li>
         </ul>
         <div class="button">
-            <a href="#">VIEW OUR DEPARTMENTS</a>
+          <a href="#">VIEW OUR DEPARTMENTS</a>
         </div>
       </div>
     </div>
@@ -78,7 +77,7 @@ footer {
 #footer-top {
   display: flex;
   justify-content: space-between;
-  border: 5px solid salmon;
+//   border: 5px solid salmon;
   padding: 80px;
   h3 {
     font-weight: 300;
@@ -92,8 +91,10 @@ footer {
   }
   //    Footer top left
   #footer-top-left {
-    border: 5px solid greenyellow;
+    // border: 5px solid greenyellow;
     width: calc(100% / 3);
+    padding: 0 40px;
+
     h3 {
       margin: 30px 0;
     }
@@ -108,8 +109,9 @@ footer {
 
   //    Footer top center
   #footer-top-center {
-    border: 5px solid greenyellow;
+    // border: 5px solid greenyellow;
     width: calc(100% / 3);
+    padding: 0 40px;
     iframe {
       margin-top: 20px;
     }
@@ -117,22 +119,36 @@ footer {
 
   //    Footer top right
   #footer-top-right {
-    border: 5px solid greenyellow;
+    // border: 5px solid greenyellow;
     width: calc(100% / 3);
+    padding: 0 40px;
     ul {
-        list-style: none;
+      list-style: none;
+      margin: 40px 0;
+      i {
+        background-color: #3bafbf;
+        border-radius: 50%;
+        padding: 5px;
+        color: white;
+        margin-right: 12px;
+      }
     }
     .button {
+      width: 100%;
+      // border: 5px solid black;
+      display: flex;
+      a {
+        font-size: 18px;
+        color: white;
+        padding: 9px 0;
+        background-color: #3bafbf;
+        letter-spacing: 2px;
+        text-decoration: none;
         width: 100%;
-        border: 5px solid black;
-    }
-    a {
-      font-size: 18px;
-      color: white;
-      padding: 17px 0;
-      background-color: #3bafbf;
-      letter-spacing: 2px;
-      text-decoration: none;
+        text-align: center;
+        font-weight: 400;
+        border-radius: 2px;
+      }
     }
   }
 }
