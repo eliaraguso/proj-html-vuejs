@@ -5,6 +5,7 @@
     <Services />
     <Facilities />
     <Learn />
+    <Appointment />
 
   </main>
 </template>
@@ -14,7 +15,9 @@ import Welcome from './Welcome-section.vue';
 import Doctors from './Doctors-section.vue';
 import Services from './Services-section.vue';
 import Facilities from './Facilities-section.vue';
-import Learn from './LearnMore-section.vue'
+import Learn from './LearnMore-section.vue';
+import Appointment from './Appointment-section.vue';
+
 
 
 
@@ -26,6 +29,7 @@ export default {
       Services,
       Facilities,
       Learn,
+      Appointment,
     }
 }
 </script>
