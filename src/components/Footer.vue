@@ -38,11 +38,8 @@
         <h3>MEDICAL DEPARTMENTS</h3>
         <div class="separator"></div>
         <ul>
-          <li><i class="fas fa-check"></i>Cardiology</li>
-          <li><i class="fas fa-check"></i>Cardiology</li>
-          <li><i class="fas fa-check"></i>Cardiology</li>
-          <li><i class="fas fa-check"></i>Cardiology</li>
-          <li><i class="fas fa-check"></i>Cardiology</li>
+          <li  v-for="(item, index) in footerMenu"
+            :key="index"><i class="fas fa-check"></i>{{item.text}}</li>
         </ul>
         <div class="button">
           <a href="#">VIEW OUR DEPARTMENTS</a>
@@ -62,6 +59,9 @@
 <script>
 export default {
   name: "Footer",
+  props: {
+    footerMenu: Array,
+  },
 };
 </script>
 

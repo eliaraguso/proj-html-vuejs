@@ -49,7 +49,22 @@ export default {
         },
       ],
       footerMenu: [
-        
+        {
+          text: "Cardiology"
+        },
+        {
+          text: "Pediatrics"
+        },
+        {
+          text: "Diabetes Care"
+        },
+        {
+          text: "Pre-natal Care"
+        },
+        {
+          text: "Ultrasound Echocardiogram"
+        },
+
       ]
     };
   },
