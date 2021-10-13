@@ -86,14 +86,16 @@ export default {
     #submit {
       width: 100%;
     }
-    #name {
-    }
-    #email {
-    }
-    #tel {
-    }
-    #date {
-    }
+    // #name {
+    // }
+    // #email {
+    // }
+    // #tel {
+    // }
+    
+    // #date {
+        
+    // }
     #textarea {
       background: transparent;
       border: 1px solid rgba(183, 203, 206, 0.77);

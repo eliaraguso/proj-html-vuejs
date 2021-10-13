@@ -2,7 +2,7 @@
   <div id="app">
     <Header :headerMenu="headerMenu" />
     <Main />
-    <Footer />
+    <Footer :footerMenu="footerMenu"/>
   </div>
 </template>
 
@@ -48,6 +48,9 @@ export default {
           background: "appointment",
         },
       ],
+      footerMenu: [
+        
+      ]
     };
   },
 };

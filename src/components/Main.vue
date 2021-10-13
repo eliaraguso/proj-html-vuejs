@@ -19,8 +19,6 @@ import Learn from './LearnMore-section.vue';
 import Appointment from './Appointment-section.vue';
 
 
-
-
 export default {
     name: 'Main',
     components : {
