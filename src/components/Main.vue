@@ -6,7 +6,6 @@
     <Facilities />
     <Learn />
     <Appointment />
-
   </main>
 </template>
 
