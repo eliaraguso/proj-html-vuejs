@@ -14,7 +14,7 @@
         </p>
         <h3>LEARN MORE ABOUT US</h3>
         <div class="socials">
-          <a href="#"><img src="../assets/img/facebook_icon.png" alt="" /></a>
+          <a href="#" ><img src="../assets/img/facebook_icon.png" alt="" /></a>
           <a href="#"><img src="../assets/img/twitter_icon.png" alt="" /></a>
           <a href="#"><img src="../assets/img/instagram_icon.png" alt="" /></a>
           <a href="#"><img src="../assets/img/youtube_icon.png" alt="" /></a>
@@ -93,7 +93,7 @@ footer {
   #footer-top-left {
     // border: 5px solid greenyellow;
     width: calc(100% / 3);
-    padding: 0 40px;
+    padding: 0 50px;
 
     h3 {
       margin: 30px 0;
@@ -111,7 +111,7 @@ footer {
   #footer-top-center {
     // border: 5px solid greenyellow;
     width: calc(100% / 3);
-    padding: 0 40px;
+    padding: 0 50px;
     iframe {
       margin-top: 20px;
     }
@@ -121,7 +121,7 @@ footer {
   #footer-top-right {
     // border: 5px solid greenyellow;
     width: calc(100% / 3);
-    padding: 0 40px;
+    padding: 0 50px;
     ul {
       list-style: none;
       margin: 40px 0;
