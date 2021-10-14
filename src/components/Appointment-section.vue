@@ -39,6 +39,8 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+    background-attachment: fixed;
+
   padding: 150px 0;
   .container {
     width: 33%;
@@ -86,16 +88,7 @@ export default {
     #submit {
       width: 100%;
     }
-    // #name {
-    // }
-    // #email {
-    // }
-    // #tel {
-    // }
     
-    // #date {
-        
-    // }
     #textarea {
       background: transparent;
       border: 1px solid rgba(183, 203, 206, 0.77);
