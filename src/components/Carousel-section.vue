@@ -1,5 +1,10 @@
 <template>
-  <section id="carousel-section"></section>
+  <section id="carousel-section">
+      <img src="../assets/img/client-logos-1.png" alt="">
+      <img src="../assets/img/client-logos-2.png" alt="">
+      <img src="../assets/img/client-logos-3.png" alt="">
+      <img src="../assets/img/client-logos-4.png" alt="">
+  </section>
 </template>
 
 <script>
@@ -16,6 +21,9 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 </style>
