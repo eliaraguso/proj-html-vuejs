@@ -131,6 +131,7 @@ export default {
     transform: scale(1.2);
   }
   .doctor-box {
+    transition: all .3s ease-in-out; 
     // border: 5px solid green;
     width: 369px;
     font-size: 18px;

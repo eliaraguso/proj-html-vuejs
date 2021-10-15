@@ -23,7 +23,7 @@
         <div class="feature-box">
           <a href="#">
             <img src="../assets/img/icon-2.png" alt="" />
-            <h2>SAME DAY APPOINTMENTS</h2>
+            <h2>WORLD CLASS FACILITIES</h2>
             <div class="info-box">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </div>
@@ -32,7 +32,7 @@
         <div class="feature-box">
           <a href="#">
             <img src="../assets/img/icon-3.png" alt="" />
-            <h2>SAME DAY APPOINTMENTS</h2>
+            <h2>EXPERT DOCTORS</h2>
             <div class="info-box">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </div>
@@ -41,7 +41,7 @@
         <div class="feature-box">
           <a href="#">
             <img src="../assets/img/icon-4.png" alt="" />
-            <h2>SAME DAY APPOINTMENTS</h2>
+            <h2>COMPLEMENTARY THERAPIES</h2>
             <div class="info-box">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </div>
