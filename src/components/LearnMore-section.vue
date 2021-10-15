@@ -10,7 +10,7 @@
       <a href="#">LEARN MORE</a>
     </div>
      <div class="learn-box" id="second-box">
-      <h3>Emergency Care</h3>
+      <h3>Expert Diagnostics</h3>
       <img src="../assets/img/wave-divider.png" alt="">
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -19,7 +19,7 @@
       <a href="#">LEARN MORE</a>
     </div>
      <div class="learn-box" id="third-box">
-      <h3>Emergency Care</h3>
+      <h3>Superb Rehabilitation</h3>
       <img src="../assets/img/wave-divider.png" alt="">
       <p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -46,8 +46,9 @@ export default {
             padding: 40px 30px 50px 30px;
             line-height: 48px;
             h3 {
-                font-weight: 400;
+                font-weight: 300;
                 letter-spacing: 1px;
+                font-size: 22px;
             }
             p {
                 margin-bottom: 15px;
@@ -63,6 +64,14 @@ export default {
                     
                 }
             }
+        }
+        #first-box,
+        #second-box,
+        #third-box {
+          a {
+          transition: .2s ease-in-out;
+
+          }
         }
         #first-box {
             background-color: #3bafbf;
