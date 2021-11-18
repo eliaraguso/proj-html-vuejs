@@ -12,6 +12,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:eliaraguso/proj-html-vuejs.git main:gh-pages
+git push -f git@github.com:eliaraguso/proj-html-vuejs.git master:gh-pages
 
 cd -
