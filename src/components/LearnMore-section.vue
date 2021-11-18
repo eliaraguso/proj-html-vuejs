@@ -60,9 +60,7 @@ export default {
                 border: 2px solid white;
                 padding: 13px 29px;
                 font-weight: 400;
-                &:hover {
-                    
-                }
+                
             }
         }
         #first-box,
